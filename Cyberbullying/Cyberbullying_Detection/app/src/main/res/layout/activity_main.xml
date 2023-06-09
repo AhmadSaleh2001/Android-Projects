@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20px"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cyberbullying Classifier"
+        android:textSize="60px"
+        android:layout_gravity="center_horizontal"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Message"
+        android:textSize="60px"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:id="@+id/Input"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Btn"
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spam"
+        android:textSize="60px"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:visibility="invisible"
+        android:id="@+id/ToShowAns"
+        ></TextView>
+
+
+
+</LinearLayout>
